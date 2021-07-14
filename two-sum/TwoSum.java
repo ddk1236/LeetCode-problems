@@ -1,4 +1,4 @@
-class Solution {
+class Solution1 {
     public int[] twoSum(int[] nums, int target) {
         for(int i=0;i<nums.length;i++){
             int a=nums[i];
@@ -14,7 +14,7 @@ class Solution {
 }
 public class TwoSum{
 	public static void main(String args[]){
-		Solution solution = new Solution();
+		Solution1 solution = new Solution1();
 		int [] nums={1,2,4,5,6,7,8,9};
 		solution.twoSum(nums,10);
 	}
